@@ -1,0 +1,686 @@
+/* General Styles */
+body {
+ 	font-family: "Inter", sans-serif;
+	font-size: 13px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+	max-width: 1800px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	
+}
+
+/* Header Styles */
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.logo img {
+    height: 60px;
+	margin-left: auto;
+}
+
+.subtitle {
+    margin-left: auto;
+    font-style: italic;
+    padding-right: 50px;
+}
+
+.subtitle button{
+    background-color: #d9a81b;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100px;
+    
+}
+
+/* Profile Section Styles */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+	border-radius: 0px;
+}
+
+.profile-info {
+    max-width: 50%;
+}
+
+.profile-info h2 {
+    color: #111111;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+	font-weight: 700;
+	line-height: 10px;
+    
+    
+}
+
+.profile-info h3 {
+    color: #d9a81b;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;    
+}
+
+.profile-info h4 {
+    color: #5E5E5E;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+	font-weight: 300;
+
+}
+
+.profile-info p {
+    color: #000000;
+    font-family: "Inter", sans-serif;    
+    font-size: 16px;
+	font-weight: 250;
+    text-align: justify;
+    
+}
+
+.profile-info button {
+    background-color: #ffb703;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    width: 120px;
+ 	font-family: "Inter", sans-serif;
+}
+
+.profile-image img {
+    width: 90%;
+    margin-left: 10%;
+	height: 500px;
+	min-width: 250px;
+	object-fit: cover;
+
+}
+
+/* Top Songs Section Styles */
+
+
+.top-songs {
+    padding: 40px;
+    background-color: #ffffff;
+    padding-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-songs h2 {
+    text-align: left;
+    color: #000000;
+    margin-bottom: 20px;
+	margin-left: 20px;
+    font-size: 20px;
+ 	font-family: "Inter", sans-serif;
+}
+
+.songs-list {
+	display: flex;
+    justify-content: flex-start;
+	align-content: flex-start;
+    flex-wrap: nowrap;
+	max-width: 2000px;
+    gap: 10px;
+	padding: 20px;
+}
+
+.song-item {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column;
+	align-content: flex-start;
+	justify-content: flex-start;
+}
+
+.image-container-square {
+
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+
+}
+
+
+.song-item img {
+    border-radius: 10px;
+	width: 300px;
+    height: 300px;
+    
+}
+
+
+.song-text {
+	padding: 10px 20px 20px 20px;
+}
+
+.song-item h3 {
+    color: #111111;
+ 	font-family: "Inter", sans-serif;
+}
+
+.song-item p {
+    color: #999999;
+ 	font-family: "Inter", sans-serif;
+	padding: 0px;
+
+}
+
+.song-item a{
+ 	font-family: "Inter", sans-serif;
+	
+}
+
+
+.song-item button {
+    display: inline-flex;
+	align-items: center;
+    justify-content: center;
+ 	font-family: "Inter", sans-serif;
+    border-radius: 20px;
+    background-color: #d9a81b;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+  
+}
+
+
+.rounded-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #d9a81b;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80px;
+  }
+
+/* UPDATES */
+
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;    
+	background-color: #f4f4f4;   
+}
+
+.section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    flex: 1 1 300px;
+    max-width: 500px;
+	background-color: #ffffff;
+
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #111111;
+    font-size: 16px;
+ 	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	padding-bottom: 5px;
+	
+}
+
+.card, .collaborator, .award, .anniversaries {
+    display: flex;
+    align-items: center;
+	justify-content: flex-start;
+    margin-bottom: 10px;
+    height: 110px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+	min-width: 300px;
+
+}
+
+.collaborator p{
+ 	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	
+}
+
+.image-container-round {
+
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-container-round img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    
+}
+
+.card img, .award img{
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+
+
+.card-text h3 {
+	
+	float: left;
+	margin: 0;
+    font-size: 16px;
+    color: #d9a81b;
+	font-weight: 600;
+	width: 100%;
+    
+}
+
+.award-title {
+	margin: 0;
+    font-size: 16px;
+    color: #d9a81b;
+	font-weight: 600;
+	width: 100%;
+}
+
+
+.award-title h3{
+	margin: 0;
+    font-size: 16px;
+    color: #d9a81b;
+	font-weight: 600;
+	width: 100%;
+}
+
+.card-text p, .award p {
+    margin: 50px 0 0 0;
+    color: #111111;
+    font-size: 14px;
+ 	font-family: "Inter", sans-serif;
+	float: left;
+    
+    
+
+}
+
+.card-text span, .award span {
+    display: flex;
+	font-weight: 500;
+	padding-top: 3px;
+    color: #777777;
+ 	font-family: "Inter", sans-serif;
+	float: right;
+	justify-content: space-between;
+    
+
+}
+
+.card-text small, .award small {
+    color: #777;
+	font-weight: 400;
+	float: right;
+}
+
+.collaborator p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    min-width: 250px;
+    margin-left: 10px;
+}
+
+
+.container_left_right {
+    display: flex;
+    justify-content: space-between;
+	float: right;
+	width: 100%;
+
+}
+
+.left-text {
+    font-size: 12px;
+    color: #777777;
+	font-weight: 100;
+	float: left;
+
+}
+
+.right-text {
+    font-size: 14px;
+	float: right;
+	text-align: right;
+	align-content: flex-end;
+	justify-content: space-between;
+	
+}
+
+
+/* News Section Styles */
+
+
+.news-container {
+   text-align: left;
+}
+
+
+
+.news-container h2 {
+    text-align: left;
+    color: #333;
+    font-size: 20px;
+ 	font-family: "Inter", sans-serif;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 10px;
+
+}
+
+.news-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+	height: 150px;
+    display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	min-width: 350px;
+    
+}
+
+.news-card img {
+    height: 100%;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.news-card-text {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.news-card-text h3 {
+    margin: 0;
+    font-size: 1.1em;
+ 	font-family: "Inter", sans-serif;
+    color: #d9a81b;
+	font-weight: 600;
+}
+
+.news-card-text p {
+    margin: 5px 0 0 0;
+    color: #666;
+ 	font-family: "Inter", sans-serif;
+    font-size: 14px;
+	font-weight: 500;
+
+}
+
+.news-card-text small {
+    color: #999;
+	font-weight: 200;
+
+}
+
+
+footer {
+    margin-top: auto; /* Push footer to the bottom of the page */
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1A1A1A;
+    color: #888888; /* Dark text color */
+    font-size: 1em;
+ 	font-family: "Inter", sans-serif;
+    
+}
+
+.socials-container {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+	
+    
+}
+
+.socials-container h2 {
+    text-align: left;
+    color: #333;
+    font-size: 20px;
+ 	font-family: "Inter", sans-serif;
+	padding-left: 20px;
+}
+
+.socials-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+	height: 60px;
+	min-width: 200px;
+	max-width: 300px;
+
+}
+
+.social-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.social-card i {
+
+    margin-right: 15px;
+    font-size: 40px;
+	color: #484848;
+
+}
+
+.social-card-text h3 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+ 	font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.social-card-text p {
+    margin: 5px 0 0 0;
+    color: #d9a81b;
+ 	font-family: "Inter", sans-serif;
+}
+.social-card-text a {
+    margin: 5px 0 0 0;
+    color: #d9a81b;
+ 	font-family: "Inter", sans-serif;
+}
+
+
+.inter-light {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.playlists {
+	padding-left: 50px;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 1201px) {
+	
+	.songs-list{
+		max-width: 1000px;
+		justify-content: center;
+	}
+ 	
+	  .profile-image img {
+        max-width: 500px;
+        height: 500px;
+	}
+	
+    .profile-info {
+        max-width: 500px;
+    }
+	
+	.rounded-button p {
+		font-size: 10px;
+	}
+	
+	 .container {
+    padding: 50px;    
+
+}
+	
+	
+@media (max-width: 1025px) {
+	
+	.profile {
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.profile-info p {
+		font-size: 14px;
+		max-width: 450px;
+   
+	}		
+	
+	.profile-image img {
+        max-width: 400px;
+        height: 400px;
+	}
+	
+	.songs-list{
+		width:100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex: 1;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.song-item {
+		max-width: 250px;
+		align-content: center;
+	}
+	
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .profile-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .songs-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .song-item {
+        max-width: 90%;
+    }
+
+    .playlists-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .playlists-item {
+        max-width: 90%;
+    }
+}
+}
